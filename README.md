@@ -14,10 +14,8 @@ A lightweight desktop notification system that alerts you when weather condition
 ## Screenshots
 
 ![Weather Alert System - Notifications](https://i.imgur.com/drfbVRv.jpeg)
-*Toast notifications appear in the bottom-right corner of your screen*
 
 ![Weather Alert System - Command Line](https://i.imgur.com/cpO362p.png)
-*Command-line interface showing alert detection*
 
 ## Requirements
 
