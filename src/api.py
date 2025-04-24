@@ -24,8 +24,7 @@ class WeatherAPI:
                 with open('.api_key', 'r') as f:
                     self.api_key = f.read().strip()
             except FileNotFoundError:
-                # Use hardcoded key as fallback (not ideal but for this demo)
-                self.api_key = "19724a3a48d488b35b9b9f7ddb46b1f3"
+                self.api_key = None
         
         self.units = config.get('units', 'metric')
         
