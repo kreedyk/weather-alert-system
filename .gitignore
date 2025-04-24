@@ -1,0 +1,36 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Python environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Database files
+data/*.db
+
+# Log files
+logs/*.log
+
+# API keys
+.api_key
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+* text=auto
+*.py text diff=python
+*.json text
+*.md text diff=markdown
+*.txt text
+LICENSE text
+*.png binary
+*.jpg binary
+*.ico binary
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf

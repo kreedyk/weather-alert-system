@@ -1,0 +1,66 @@
+{
+  "api": {
+    "service": "openweathermap",
+    "units": "metric"
+  },
+  "locations": [
+    {
+      "name": "Miami",
+      "latitude": 25.7617,
+      "longitude": -80.1918,
+      "alerts": [
+        {
+          "condition": "humidity",
+          "operator": "above",
+          "value": 50,
+          "message": "Humidity detected in Miami (alert demo)"
+        },
+        {
+          "condition": "temperature",
+          "operator": "above",
+          "value": 20,
+          "message": "Normal temperature in Miami (alert demo)"
+        },
+        {
+          "condition": "wind",
+          "operator": "above",
+          "value": 2,
+          "message": "Light breeze in Miami (alert demo)"
+        }
+      ]
+    },
+    {
+      "name": "Seattle",
+      "latitude": 47.6062,
+      "longitude": -122.3321,
+      "alerts": [
+        {
+          "condition": "clouds",
+          "operator": "above",
+          "value": 30,
+          "message": "Cloudy in Seattle (alert demo)"
+        },
+        {
+          "condition": "temperature",
+          "operator": "below",
+          "value": 25,
+          "message": "Mild temperature in Seattle (alert demo)"
+        }
+      ]
+    }
+  ],
+  "notifications": {
+    "desktop": {
+      "enabled": true
+    }
+  },
+  "preferences": {
+    "check_interval_minutes": 30,
+    "quiet_hours": {
+      "enabled": false,
+      "start": "23:00",
+      "end": "07:00"
+    },
+    "history_days": 30
+  }
+}
